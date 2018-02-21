@@ -3,7 +3,8 @@ import Link from 'next/link'
 
 export default () => (
   <ul>
-    <li><Link href='/'><a>list</a></Link></li>
-    <li><Link href='/detail/123'><a>detail</a></Link></li>
+    <li><Link href='/a'><a>a</a></Link></li>
+    <li><Link href='/b/test'><a>b/test</a></Link></li>
+    <li><Link href='/b'><a>b</a></Link></li>
   </ul>
 )
