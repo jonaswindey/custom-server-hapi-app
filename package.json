@@ -1,0 +1,17 @@
+{
+  "name": "custom-server-hapi",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "dependencies": {
+    "good": "^7.1.0",
+    "good-console": "^6.2.0",
+    "hapi": "^16.1.0",
+    "next": "^4.2.3",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  }
+}
